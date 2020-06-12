@@ -34,20 +34,20 @@ class _HomeState extends State<Home> {
                   child: Text('Container grande para testar problemas de rolagem'),
                 ),
               ),
-              //SIGNATURE CANVAS
+              //TELA DE ASSINATURA
               Signature(
                 controller: _controller,
                 height: 300,
                 backgroundColor: Colors.lightBlueAccent,
               ),
-              //OK AND CLEAR BUTTONS
+              //BOTÕES APROVADO E APAGAR
               Container(
                 decoration: const BoxDecoration(color: Colors.black),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   mainAxisSize: MainAxisSize.max,
                   children: <Widget>[
-                    //SHOW EXPORTED IMAGE IN NEW ROUTE
+                    //MOSTRAR IMAGEM EXPORTADA EM NOVA ROTA
                     IconButton(
                       icon: const Icon(Icons.check),
                       color: Colors.blue,
@@ -69,7 +69,7 @@ class _HomeState extends State<Home> {
                         }
                       },
                     ),
-                    //CLEAR CANVAS
+                    //LIMPAR TELA
                     IconButton(
                       icon: const Icon(Icons.clear),
                       color: Colors.blue,
